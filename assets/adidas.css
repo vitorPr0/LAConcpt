@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    background-color: #BBBBBB;
+}
+.header{
+    background-color: #000000;
+    width: 100%;
+    height: 90px;
+    display:flex ;
+}
+.text-menu ,
+.text-menu1 {
+    color:white ;
+    font-size: 15px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.box-logo{
+    width: 15%;
+}
+.box-meio{
+    width: 60%;
+}
+.box-pesquisa{
+    width: 25%;
+}
+.img-logo{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.text-menu1{
+    margin-left: 20%;
+}
+.text-menu{
+    margin-left: 10%;
+
+}
+.acertos{
+    margin-top: 45px;
+}
+.filtar{
+    margin-top: 50px;
+    width: 120px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: #D9D9D9;
+}
+
+a{
+    list-style: none;
+    color: white;
+    text-decoration: none
+}
+
+.carrossel2 {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #D9D9D9;
+
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.lista,
+.lista2,
+.lista3,
+.lista4 {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.produto,
+.produto2,
+.produto3,
+.produto4 {
+    min-width: 25%; /* Ajuste conforme o número de produtos visíveis */
+    box-sizing: border-box;
+    padding: 30px;
+    text-align: center;
+}
+
+.produto img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+.produto2 img,
+.produto3 img,
+.produto4 img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.seta,
+.seta2,
+.seta3,
+.seta4 {
+    position: absolute;
+    top: 40%;
+    background-color: rgba(0, 0, 0, 0);
+    color: #000000;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.esquerda,
+.esquerda2
+.esquerda3,
+.esquerda4 {
+    left: 0;
+}
+
+.direita,
+.direita2,
+.direita3,
+.direita4 {
+    right: 0;
+}
+.frasep{
+    position: absolute;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -60px;
+    left: 25%;
+
+}
+
+.rodape{
+    width: 100%;
+    height: 130px;
+    background-color: #000000;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.textroda{
+    color: white;
+}
+.ajuste{
+    margin-top: 50px;
+}
+::placeholder{
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+.fa-thin{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 1440px;
+    top: 48px;
+
+
+}
+
+.rodape{
+    background-color: #000000;
+    margin-top: 50px;
+    height: 195px;
+    width: 100%;
+}
+.text-rodape{
+    padding-top: 35px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.text-rodape2{
+    color: white;
+    text-align: center;
+    padding-top: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+.text-rodape3{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Julius Sans One', sans-serif;
+}
